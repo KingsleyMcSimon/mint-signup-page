@@ -18,14 +18,14 @@
     </div>
 </div>
 <header>
-    <img src="Assets/intuit-logo.png" width="118px" height="35px"/>
+    <img src="Assets/intuit-logo.png" alt="intuit logo" width="118px" height="35px"/>
 </header>
 <section class="main-content">
     <nav>
         <ul>
-            <li><img src="https://digitalasset.intuit.com/IMAGE/A3OSvbxLf/logo-mint-footer.png"></li>
-            <li><img src="https://digitalasset.intuit.com/IMAGE/A3IM78ua2/logo-quickbooks.png"></li>
-            <li><img src="https://digitalasset.intuit.com/IMAGE/A9pxt917g/logo-turbotax.png"></li>
+            <li><img src="https://digitalasset.intuit.com/IMAGE/A3OSvbxLf/logo-mint-footer.png" alt="sign in with mint"></li>
+            <li><img src="https://digitalasset.intuit.com/IMAGE/A3IM78ua2/logo-quickbooks.png" alt="sign in with QuickBooks"></li>
+            <li><img src="https://digitalasset.intuit.com/IMAGE/A9pxt917g/logo-turbotax.png" alt="sign in with TurboTax"></li>
         </ul>
     </nav>
     <section>
@@ -34,30 +34,29 @@
 
                 <h1>Create an Intuit account</h1>
                 <p>One account for everything Intuit, including Mint.</p>
-                <p><span style="font-size: 12px; color: #0077C5;">Learn more.</span></p>
-
+                <p id="learn-more">Learn more.</span></p>
                 <div class="form-content">
-                    <p>Email address</p>
-                    <input type="email" name="email"><br>
-                    <p>Phone(Recommended)</p>
-                    <input type="phone number" name="phone number"><br>
-                    <p><span style="font-size: 10px">Standard call, messaging or data rates may apply.</span></p>
-                    <p>Password</p>
-                    <input type="password" name="password"><br>
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email"><br>
+                    <label for="phone-number">Phone Number</label>
+                    <input id="phone-number" type="phone number" name="phone number"><br>
+                    <label id="standard-call" for="standard-call">Standard call, messaging or data rates may apply.</label><br><br>
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password"><br>
                     <button class="mint-button"><i class="fas fa-lock"></i> Create Account</button>
                 </div>
                 
-                <p><span style="font-size: 10px; font-style: italic;">By clicking Create account, you agree to our <br> <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy <br> Statement.</a></span></p>
+                <p id="create-account">By clicking Create account, you agree to our <br> <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy <br> Statement.</a></p>
             </fieldset>
         </form>
-        <p><span style="font-size: 10px; opacity: 0.6">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></span></p>
+        <p id="captcha">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
     </section>        
             
             <!--Footer-->
         
 </section>
 <footer>
-    <p><span style="color: #505050"><a href="#">Legal   Privacy  Security</a></span></p>
+    <p id="legat-tags"><a href="#">Legal   Privacy  Security</a></span></p>
     <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
         Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
 </footer>
