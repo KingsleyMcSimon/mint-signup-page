@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Mint Signup Page</title>
     <meta charset="UTF-8">
-    <meta name="viewport" width="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
     <script src="https://kit.fontawesome.com/cbc2432238.js"></script>
 </head>
@@ -18,7 +18,7 @@
     </div>
 </div>
 <header>
-    <img src="Assets/intuit-logo.png" alt="intuit logo" width="118px" height="35px"/>
+    <img id="intuit-logo" src="Assets/intuit-logo.png" alt="intuit logo"/>
 </header>
 <section class="main-content">
     <nav>
@@ -31,16 +31,15 @@
     <section>
         <form>
             <fieldset>
-
-                <h1>Create an Intuit account</h1>
+                <h2>Create an Intuit account</h2>
                 <p>One account for everything Intuit, including Mint.</p>
-                <p id="learn-more">Learn more.</span></p>
+                <p id="learn-more">Learn more.</p>
                 <div class="form-content">
                     <label for="email">Email Address</label>
                     <input id="email" type="email" name="email"><br>
                     <label for="phone-number">Phone Number</label>
-                    <input id="phone-number" type="phone number" name="phone number"><br>
-                    <label id="standard-call" for="standard-call">Standard call, messaging or data rates may apply.</label><br><br>
+                    <input id="phone-number" type="tel" name="phone number"><br>
+                    <label id="standard-call">Standard call, messaging or data rates may apply.</label><br><br>
                     <label for="password">Password</label>
                     <input id="password" type="password" name="password"><br>
                     <button class="mint-button"><i class="fas fa-lock"></i> Create Account</button>
@@ -56,7 +55,7 @@
         
 </section>
 <footer>
-    <p id="legat-tags"><a href="#">Legal   Privacy  Security</a></span></p>
+    <p id="legat-tags"><a href="#">Legal   Privacy  Security</a></p>
     <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
         Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
 </footer>
